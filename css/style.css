@@ -1,0 +1,42 @@
+body{
+  font-family: calibri;
+}
+ul{
+  padding: 0;
+  list-style: none;
+}
+.heroes-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 215px);
+  grid-gap: 1rem;
+  padding: 0;margin: 0;
+  justify-content: space-between;
+}
+.heroes-list span{
+  display: inline-block;
+}
+.heroes-list li{
+  max-width: 215px;
+  min-width: 215px;
+  flex-basis: 12%;
+}
+.heroes-item{
+  margin-bottom: 30px;
+  border:1px solid #d3d3d3;
+}
+.desc-wrap{
+  padding: 10px;
+}
+.heroes-list li .img-wrap{
+  height: 219px;
+  overflow: hidden;
+}
+.heroes-list img{
+  width: 100%;
+}
+#select-movie{
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
